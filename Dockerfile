@@ -3,3 +3,4 @@ RUN curl -sSL https://github.com/jpillora/chisel/releases/download/v1.7.7/chisel
 RUN chmod +x bin/chisel
 EXPOSE 80 443 1000-65535
 CMD chisel server --port 80 --socks5 --reverse
+# sudo ./chisel server --port 80 --socks5 --reverse --auth potato:potato
